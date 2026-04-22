@@ -1,6 +1,6 @@
 body {
-    background-color: #1a1a2e; /* Dark navy for a horror vibe */
-    font-family: 'Courier New', Courier, monospace; /* Retro typewriter feel */
+    background-color: #1a1a2e;
+    font-family: 'Courier New', Courier, monospace; 
     color: #e0e0e0;
     margin: 0;
     padding: 0;
@@ -8,7 +8,7 @@ body {
 
 h1 {
     font-size: 3rem;
-    color: #e94560; /* Neon red/pink */
+    color: #e94560; 
     text-align: center;
     padding-top: 40px;
     text-shadow: 2px 2px #000;
