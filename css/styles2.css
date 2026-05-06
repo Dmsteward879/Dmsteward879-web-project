@@ -7,20 +7,9 @@ body {
     line-height: 1.6; 
 }
 
-h1 { 
-    color: #ff9999; 
-    text-align: center; 
-}
-
-h2 { 
-    color: #b3f0ff; 
-    border-bottom: 2px solid #b3f0ff; 
-    padding-bottom: 5px; 
-}
-
-h3 { 
-    color: #ffeb99; 
-}
+h1 { color: #ffadad; text-align: center; } 
+h2 { color: #c2f3ff; border-bottom: 2px solid #c2f3ff; padding-bottom: 5px; } 
+h3 { color: #fff0b3; } 
 
 nav { 
     background: #1f1f1f; 
@@ -32,89 +21,44 @@ nav {
 }
 
 nav a { 
-    color: #b3f0ff; 
-    text-decoration: none; 
+    color: #c2f3ff !important; 
+    text-decoration: underline; 
     margin-bottom: 15px; 
     font-weight: bold; 
-    transition: 0.3s;
 }
 
-nav a:hover { 
-    color: #ff9999; 
-    text-decoration: underline;
-}
+nav a:hover { color: #ffadad !important; }
 
-ul li { 
-    margin-bottom: 20px; 
-}
-
-#form-section { 
-    background: #1f1f1f; 
-    padding: 20px; 
-    border-radius: 15px; 
-    margin-top: 40px; 
-}
+#form-section { background: #1f1f1f; padding: 20px; border-radius: 15px; margin-top: 40px; }
 
 input { 
     padding: 10px; 
-    font-size: 1rem; 
-    border-radius: 5px; 
-    border: 1px solid #ccc; 
+    background-color: #ffffff; 
+    color: #000000; 
+    border: 2px solid #c2f3ff;
 }
+
+::placeholder { color: #555555; opacity: 1; }
 
 button { 
-    padding: 10px 20px;
-    font-size: 1rem;
-    border-radius: 5px;
-    border: none;
-    background-color: #ff9999; 
+    padding: 12px 24px;
+    background-color: #ffadad; 
     color: #121212; 
-    cursor: pointer; 
+    border: none;
     font-weight: bold;
-    transition: background 0.3s;
+    cursor: pointer; 
 }
 
-button:hover { 
-    background-color: #ff4d4d; 
-}
-
-#responseMessage { 
-    animation: fadeIn 1s ease-in; 
-}
-
-@keyframes fadeIn { 
-    from { opacity: 0; } 
-    to { opacity: 1; } 
-}
-
-@media (max-width: 600px) { 
-    body { 
-        padding: 15px; 
-    } 
-    h1 { 
-        font-size: 1.5rem; 
-    } 
-    nav a { 
-        display: block; 
-        margin-bottom: 15px; 
-    } 
-}
-
-a, a:visited, a:link {
-    color: #99f0ff !important;
+a, a:visited { 
+    color: #c2f3ff !important; 
     text-decoration: underline; 
 }
 
-a:hover {
-    color: #ff9999 !important;
-}
+ul li { margin-bottom: 20px; }
+#responseMessage { animation: fadeIn 1s ease-in; }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 
-::placeholder {
-    color: #cccccc;
-    opacity: 1; 
-}
-
-main a {
-    color: #b3f0ff !important;
-    text-decoration: underline;
+@media (max-width: 600px) { 
+    body { padding: 15px; } 
+    h1 { font-size: 1.5rem; } 
 }
