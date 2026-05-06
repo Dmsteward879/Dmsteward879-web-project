@@ -24,7 +24,7 @@ h2, h3 {
 
 .content-container {
     max-width: 850px;
-    margin: 30px auto;
+    margin: 30px 20px 30px 240px; 
     padding: 40px;
     background-color: #16213e;
     border: 2px solid #e94560;
