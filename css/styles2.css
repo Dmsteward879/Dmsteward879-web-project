@@ -1,104 +1,101 @@
-body {
+body { 
     background-color: #121212; 
-    color: #ffffff;
-    font-family: 'Segoe UI', Tahoma, sans-serif;
-    margin: 0;
-    padding: 40px;
-    line-height: 1.6;
+    color: #ffffff; 
+    font-family: 'Segoe UI', Tahoma, sans-serif; 
+    margin: 0; 
+    padding: 40px; 
+    line-height: 1.6; 
 }
 
-h1 { color: #ff0000; text-align: center; }
-h2 { color: #00d2ff; border-bottom: 2px solid #00d2ff; padding-bottom: 5px; }
-h3 { color: #ffcc00; }
-
-nav {
-    background: #1f1f1f;
-    padding: 15px;
-    border-radius: 10px;
-    margin-bottom: 30px;
-}
-nav a {
-    color: #00d2ff;
-    text-decoration: none;
-    margin-right: 20px;
-    font-weight: bold;
-}
-nav a:hover {
-    color: #ff0000;
+h1 { 
+    color: #ff9999; 
+    text-align: center; 
 }
 
-#form-section {
-    background: #1f1f1f;
-    padding: 20px;
-    border-radius: 15px;
-    margin-top: 40px;
+h2 { 
+    color: #b3f0ff; 
+    border-bottom: 2px solid #b3f0ff; 
+    padding-bottom: 5px; 
 }
 
-input, button {
-    padding: 10px;
-    font-size: 1rem;
-    border-radius: 5px;
-    border: none;
+h3 { 
+    color: #ffeb99; 
 }
 
-button {
-    background-color: #ff0000;
-    color: white;
-    cursor: pointer;
+nav { 
+    background: #1f1f1f; 
+    padding: 25px; 
+    border-radius: 10px; 
+    margin-bottom: 30px; 
+    display: flex;
+    flex-direction: column;
 }
 
-button:hover {
-    background-color: #b30000;
+nav a { 
+    color: #b3f0ff; 
+    text-decoration: none; 
+    margin-bottom: 15px; 
+    font-weight: bold; 
+    transition: 0.3s;
 }
 
-@media (max-width: 600px) {
-    body {
-        padding: 15px;
-    }
-    h1 {
-        font-size: 1.5rem;
-    }
-    nav a {
-        display: block; 
-        margin-bottom: 10px;
-    }
+nav a:hover { 
+    color: #ff9999; 
+    text-decoration: underline;
 }
 
-#responseMessage {
-    animation: fadeIn 1s ease-in;
-}
-
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-
-ul li {
+ul li { 
     margin-bottom: 20px; 
 }
 
-nav {
-    display: flex;
-    flex-direction: column;
+#form-section { 
+    background: #1f1f1f; 
     padding: 20px; 
+    border-radius: 15px; 
+    margin-top: 40px; 
 }
 
-nav a {
-    margin-bottom: 10px; 
+input { 
+    padding: 10px; 
+    font-size: 1rem; 
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
 }
 
-nav {
-    padding: 20px; 
+button { 
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #ff9999; 
+    color: #121212; 
+    cursor: pointer; 
+    font-weight: bold;
+    transition: background 0.3s;
 }
 
-h2, nav a {
-    color: #99f0ff; 
+button:hover { 
+    background-color: #ff4d4d; 
 }
 
-h1, button {
-    color: #ff6666;
+#responseMessage { 
+    animation: fadeIn 1s ease-in; 
 }
 
-h3 {
-    color: #ffe066;
+@keyframes fadeIn { 
+    from { opacity: 0; } 
+    to { opacity: 1; } 
+}
+
+@media (max-width: 600px) { 
+    body { 
+        padding: 15px; 
+    } 
+    h1 { 
+        font-size: 1.5rem; 
+    } 
+    nav a { 
+        display: block; 
+        margin-bottom: 15px; 
+    } 
 }
