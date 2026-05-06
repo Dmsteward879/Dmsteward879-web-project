@@ -86,3 +86,7 @@ nav {
 nav a {
     margin-bottom: 10px; 
 }
+
+nav {
+    padding: 20px; 
+}
