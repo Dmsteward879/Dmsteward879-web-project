@@ -108,3 +108,13 @@ a, a:visited, a:link {
 a:hover {
     color: #ff9999 !important;
 }
+
+::placeholder {
+    color: #cccccc;
+    opacity: 1; 
+}
+
+main a {
+    color: #b3f0ff !important;
+    text-decoration: underline;
+}
