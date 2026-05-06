@@ -92,9 +92,13 @@ nav {
 }
 
 h2, nav a {
-    color: #66e5ff; 
+    color: #99f0ff; 
 }
 
-h1 {
-    color: #ff4d4d;
+h1, button {
+    color: #ff6666;
+}
+
+h3 {
+    color: #ffe066;
 }
