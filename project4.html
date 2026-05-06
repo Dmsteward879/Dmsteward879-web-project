@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 4: Gaming Hall of Fame</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="project4.html">Project 4</a>
+    </nav>
+
+    <header>
+        <h1>My Gaming Universe</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>The All-Time Greats</h2>
+            <p>Gaming has been a lifelong passion of mine. I love exploring rich worlds, solving complex puzzles, and the thrill of competition. Below are the three franchises that define my gaming experience.</p>
+            
+            <h3>My Favorite Series</h3>
+            <ul>
+                <li><strong>Resident Evil:</strong> The king of survival horror.</li>
+                <li><strong>Final Fantasy:</strong> Epic storytelling and magic.</li>
+                <li><strong>Pokémon:</strong> The ultimate adventure of collection and strategy.</li>
+            </ul>
+        </section>
+
+        <div id="image-display">
+            <h2>Gaming Visuals</h2>
+            <img src="../images/gaming.jpg" alt="A collection of characters from Resident Evil, Final Fantasy, and Pokemon" style="max-width:100%; height:auto;">
+            <p>Image Credit: <a href="https://ign.com" target="_blank">IGN Asset Gallery</a></p>
+        </div>
+
+        <section id="form-section">
+            <h2>Join the Party</h2>
+            <p>Enter your name below to start your quest!</p>
+            <form id="gamerForm">
+                <label for="userName">Adventurer Name:</label>
+                <input type="text" id="userName" placeholder="e.g. Cloud or Ash" required>
+                <button type="submit" id="submitBtn">Start Game</button>
+            </form>
+            <!-- Dynamic Content Area -->
+            <div id="responseMessage"></div>
+        </section>
+    </main>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
