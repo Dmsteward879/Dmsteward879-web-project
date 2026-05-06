@@ -76,3 +76,13 @@ button:hover {
 ul li {
     margin-bottom: 20px; 
 }
+
+nav {
+    display: flex;
+    flex-direction: column;
+    padding: 20px; 
+}
+
+nav a {
+    margin-bottom: 15px; 
+}
