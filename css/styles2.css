@@ -90,3 +90,11 @@ nav a {
 nav {
     padding: 20px; 
 }
+
+h2, nav a {
+    color: #66e5ff; 
+}
+
+h1 {
+    color: #ff4d4d;
+}
