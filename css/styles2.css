@@ -63,3 +63,12 @@ button:hover {
         margin-bottom: 10px;
     }
 }
+
+#responseMessage {
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
