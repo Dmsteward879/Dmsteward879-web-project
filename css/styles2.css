@@ -99,3 +99,12 @@ button:hover {
         margin-bottom: 15px; 
     } 
 }
+
+a, a:visited, a:link {
+    color: #99f0ff !important;
+    text-decoration: underline; 
+}
+
+a:hover {
+    color: #ff9999 !important;
+}
