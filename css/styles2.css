@@ -72,3 +72,7 @@ button:hover {
     from { opacity: 0; }
     to { opacity: 1; }
 }
+
+ul li {
+    margin-bottom: 20px; 
+}
