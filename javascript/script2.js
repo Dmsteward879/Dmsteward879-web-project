@@ -36,3 +36,28 @@ document.getElementById('contactForm').addEventListener('submit', function(event
         console.log("Form Data Submitted:", { name, email, message });
     }
 });
+
+const searchInput = document.getElementById('productSearch');
+const filterBtns = document.querySelectorAll('.filter-btn');
+const products = document.querySelectorAll('.product-card');
+
+searchInput.addEventListener('input', (e) => {
+    const term = e.target.value.toLowerCase();
+    products.forEach(product => {
+        const title = product.querySelector('h3').textContent.toLowerCase();
+        product.style.display = title.includes(term) ? 'block' : 'none';
+    });
+});
+
+filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+        const category = btn.getAttribute('data-category');
+        products.forEach(product => {
+            if (category === 'all' || product.getAttribute('data-category') === category) {
+                product.style.display = 'block';
+            } else {
+                product.style.display = 'none';
+            }
+        });
+    });
+});
