@@ -1,16 +1,24 @@
-# Dmsteward879-web-project
+# GreenTech Solutions - Final Project
 
-## Project 2 - HTML Foundation Page
+## Project Description
+A fully functional, responsive, and accessible website for GreenTech Solutions, a startup focused on eco-friendly technology. The site informs SMBs about sustainable practices and showcases innovative green products.
 
-### Webpage Theme
-For this project, I built a foundation page centered around my hobby of **Retro and PC Gaming**. The site features my collection of classic consoles (PS1, N64, Gameboy), my favorite legendary titles like *Final Fantasy VII* and *Pokémon Yellow*, and links to my modern gaming profiles on Steam and Battle.net.
+## Live Site Link
+[View the Live Site here](https://github.io)
 
-### What I Learned
-* **Semantic HTML:** I learned how to structure a page using headers, paragraphs, and lists to make content meaningful for browsers.
-* **Inline Styling:** I practiced using the `style` attribute to manage background colors, padding, and text alignment without an external CSS file.
-* **Web Accessibility:** I learned the importance of using `alt` text for images so that screen readers can describe visual content to all users.
-* **Directory Navigation:** I gained a better understanding of relative file paths (like using `../` to go up a folder level) to link pages together in a folder structure.
+## Features
+- **HTML5:** Semantic structure using nav, main, section, and article tags.
+- **CSS3:** A responsive, mobile-first design with an earthy color palette (greens, browns, and whites).
+- **JavaScript:** 
+  - Form validation on the Contact page.
+  - Live search and category filtering on the Products page.
+- **Web Accessibility (WCAG):** High color contrast, descriptive alt text for images, and keyboard-friendly navigation.
 
-### Challenges Faced
-* **Obsolete Attributes:** One of my biggest challenges was resolving a W3C validator warning regarding the `border` attribute on my table. I had to learn how to move that styling into a CSS rule within the `style` attribute to make the code modern and valid.
-* **Image Hosting:** I initially struggled with linking images correctly from external websites, ensuring I used a direct image file URL rather than just a website homepage link.
+## Technologies Used
+- HTML5
+- CSS3 (Media Queries, Flexbox/Grid)
+- JavaScript (ES6+)
+
+## How to Run
+1. Visit the GitHub Pages URL listed above.
+2. Alternatively, clone the repository and open `index.html` in any modern web browser.
