@@ -4,7 +4,7 @@
 A fully functional, responsive, and accessible website for GreenTech Solutions, a startup focused on eco-friendly technology. The site informs SMBs about sustainable practices and showcases innovative green products.
 
 ## Live Site Link
-[View the Live Site here](https://github.io)
+[View the Live Site here](https://dmsteward879.github.io/Dmsteward879-web-project/index.html)
 
 ## Features
 - **HTML5:** Semantic structure using nav, main, section, and article tags.
